@@ -34,6 +34,7 @@ define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
 define('DIR_MODIFICATION', DIR_SYSTEM . 'modification/');
+define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 
 // Startup
 require_once(DIR_SYSTEM . 'startup.php');
@@ -210,7 +211,7 @@ function setup_db($data) {
 
 		$db->query("SET CHARACTER SET utf8");
 
-		$db->query("SET @@session.sql_mode = 'MYSQL40'");
+		$db->query("SET @@session.sql_mode = ''");
 
 		$db->query("DELETE FROM `" . $data['db_prefix'] . "user` WHERE user_id = '1'");
 

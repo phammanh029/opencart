@@ -15,9 +15,6 @@ $_['db_password']        = DB_PASSWORD;
 $_['db_database']        = DB_DATABASE;
 $_['db_port']            = DB_PORT;
 
-$_['theme_default_status'] = THEME_DEFAULT_STATUS;
-$_['config_theme'] = CONFIG_THEME;
-$_['theme_default_directory'] = DIR_THEME;
 
 
 // Session

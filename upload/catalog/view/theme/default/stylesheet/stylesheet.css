@@ -199,6 +199,11 @@ div.required .control-label:before {
 	min-height: 40px;
 }
 
+.bottom-logo {
+    position: fixed;
+    left: 100px;
+}
+
 .menu-bar-custom {
     width: 100%;
     display: flex;

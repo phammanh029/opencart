@@ -200,8 +200,7 @@ div.required .control-label:before {
 }
 
 .bottom-logo {
-    position: fixed;
-    left: 100px;
+    overflow: hidden;
 }
 
 .menu-bar-custom {
